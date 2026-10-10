@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LittleSeed – Toko Tanaman Hias</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a href="#/" class="logo"><span class="logo-mark">🌿</span>LittleSeed</a>
+  <form class="search" id="searchForm" role="search">
+    <input id="searchInput" type="search" placeholder="Cari tanaman, kategori..." aria-label="Cari tanaman">
+    <button aria-label="Cari">🔍</button>
+  </form>
+  <nav class="icons">
+    <a href="#/profil" aria-label="Akun">👤</a>
+    <a href="#/profil" aria-label="Wishlist">♡</a>
+    <a href="#/keranjang" class="cart-link" aria-label="Keranjang">🛒<span id="cartCount" class="badge">0</span></a>
+  </nav>
+</header>
+<div class="shell">
+  <aside class="side" id="side"></aside>
+  <main id="app"></main>
+</div>
+<div id="toast" class="toast" role="status"></div>
+<script src="script.js"></script>
+</body>
+</html>
